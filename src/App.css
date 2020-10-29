@@ -13,6 +13,7 @@ nav {
   color: white;
   right:0;
   box-shadow: 5px 10px 18px #888888;
+
 }
 ul{
   display: flex;
@@ -58,3 +59,4 @@ li{
   width: 100%;
   height: auto;
 }
+
