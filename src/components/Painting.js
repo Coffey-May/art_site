@@ -1,27 +1,29 @@
 import React from "react";
-import Logo from "../"
+
 
 
 function Painting({ title, medium, image }) {
+    function detail() {
+
+
+    }
+
     return (
         <div className="painting">
-
-
-
-            <div class="thumbnail">
-                <img src={image} />
+            <div className="thumbnail">
+                <img alt="oil painting" src={image} />
             </div>
             <h3>
                 {title}
             </h3>
-            <footer>
-                <h5>
-                    {medium}
-                </h5>
-                <button>
-                    View Detail
+            <h5>
+                {medium}
+
+            </h5>
+
+            <button onClick={detail} id="detail-btn">
+                View Detail
                 </button>
-            </footer>
         </div>
     );
 }
