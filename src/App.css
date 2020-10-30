@@ -9,7 +9,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
-  background-color: rgb(46, 46, 73);
+  background-color: rgb(20, 27, 32);
   color: white;
   right:0;
   box-shadow: 5px 10px 18px #888888;
@@ -19,12 +19,17 @@ nav {
 ul{
   display: flex;
   justify-content: space-around;
+  
 }
 li{
   color:white;
   list-style: none;
-  margin-right: 3em;
+  margin-left: 3rem;
  
+}
+.cm{
+  margin-right: -4rem;
+  border: 3px solid white;
 }
 .painting{
   margin:5px;
@@ -63,4 +68,11 @@ li{
 
 .text{
   mix-blend-mode: screen;
+  letter-spacing: .5rem;
+  font-weight: lighter;
+  font-size: xx-large;
+  
+}
+.Contact{
+  /* background-image: url(public/images/Screenshot_20201029_233112.jpg) */
 }

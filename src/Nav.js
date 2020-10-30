@@ -6,7 +6,7 @@ import './App.css';
 function Nav() {
     return (
         <nav className="Nav">
-            <h1 class="#">CM</h1>
+            <h1 className="cm">CM</h1>
             <ul>
                 <Link to="/">
                     <li>Home</li>
