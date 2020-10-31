@@ -8,12 +8,9 @@ const image2 = "/images/PStrawberry.jpeg"
 const inline = {
     color: '#fff',
     left: '63%',
-
     position: 'absolute',
     backgroundColor: 'transparent',
-
     top: `18%`
-
 }
 
 function Home() {
