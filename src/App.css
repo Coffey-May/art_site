@@ -30,7 +30,23 @@ li{
 .cm{
   margin-right: -4rem;
   border: 3px solid white;
+  /* padding:.3em; */
+
+ 
+	    text-align: center;
+    
+     
+	    color: #f6eff7;
+	  
+	   	/* font-family: 'Niconne', cursive; */
+	    /* font-weight: 700; */
+      /* text-shadow: 2px 2px 0px #eb452b, 
+                  3px 3px 0px #efa032,
+                 
+                  4px 4px 0px #c11a2b */
 }
+
+
 .painting{
   margin:5px;
   padding:1rem;
@@ -72,7 +88,4 @@ li{
   font-weight: lighter;
   font-size: xx-large;
   
-}
-.Contact{
-  /* background-image: url(public/images/Screenshot_20201029_233112.jpg) */
 }

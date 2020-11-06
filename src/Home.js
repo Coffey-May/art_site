@@ -7,20 +7,23 @@ const image2 = "/images/PStrawberry.jpeg"
 
 const inline = {
     color: '#fff',
-    left: '63%',
+    left: '59%',
     position: 'absolute',
     backgroundColor: 'transparent',
-    top: `18%`
+    top: `13%`
 }
+
 
 function Home() {
     return (
         <div className="Home">
 
-            <Parallax id="bg1" bgImage={image1} strength={300}>
+            <Parallax id="bg1 " bgImage={image1} strength={300}>
                 <div className="text-container" style={{ height: 900, backgroundColor: 'black', opacity: '0.6' }}>
 
-                    <h2 className="text" style={inline}>COFFEY MAY</h2>
+                    <h2 className="text" style={inline}>COFFEY MAY<br /> <p>FINE ART </p></h2>
+
+
 
 
                 </div>

@@ -5,6 +5,7 @@ import React from "react";
 function Painting({ title, medium, image }) {
     function detail() {
 
+        console.log(title, medium)
 
     }
 

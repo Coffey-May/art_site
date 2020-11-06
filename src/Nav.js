@@ -7,6 +7,8 @@ function Nav() {
     return (
         <nav className="Nav">
             <h1 className="cm">CM</h1>
+
+
             <ul>
                 <Link to="/">
                     <li>Home</li>
