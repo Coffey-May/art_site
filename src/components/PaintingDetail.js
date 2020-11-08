@@ -1,11 +1,12 @@
 import React from "react";
 
 
-function PaintingDetail({ show, closeModalHandler, title }) {
+function PaintingDetail({ show, closeModalHandler, title, image, medium }) {
     return (
         <div className="modal-wrapper"
             style={{
-                opacity: show ? "1" : "0"
+                opacity: show ? "1" : "0",
+
             }}>
             <div className="modal-header">
                 <p>{title}</p>
@@ -14,8 +15,8 @@ function PaintingDetail({ show, closeModalHandler, title }) {
             </div>
             <div className="modal-content">
                 <div className="modal-body">
-                    <h4>Modal</h4>
-                    <p>jdbvskjhbvfjshdbfjlsdhbfjlhbdsfhjsdbfjlhsdbfjhbsdjhfbdsljfbjdfhbslj</p>
+                    <img alt="oil painting" src={image} />
+                    <p>{medium}</p>
                 </div>
                 <div className="modal-footer"></div>
                 <button onClick={closeModalHandler} className="btn-cancel">Close</button>

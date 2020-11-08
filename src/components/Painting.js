@@ -10,7 +10,8 @@ function Painting({ title, medium, image }) {
 
     return (
         <>
-            <PaintingDetail title={title} show={show} closeModalHandler={closeModalHandler} />
+            {show ? <PaintingDetail medium={medium} image={image} title={title} show={show} closeModalHandler={closeModalHandler} /> : null
+            }
             <div className="painting">
                 <div className="thumbnail">
                     <img alt="oil painting" src={image} />
@@ -28,7 +29,7 @@ function Painting({ title, medium, image }) {
                     id="detail-btn">
                     View Detail
                 </button>
-
+                {/* <PaintingDetail title={title} show={show} closeModalHandler={closeModalHandler} /> */}
             </div>
 
         </>
