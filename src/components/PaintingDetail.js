@@ -5,7 +5,7 @@ function PaintingDetail({ show, closeModalHandler, title, image, medium }) {
     return (
         <div className="modal-wrapper"
             style={{
-                opacity: show ? "1" : "0",
+                opacity: show ? "1" : "0"
 
             }}>
             <div className="modal-header">
@@ -15,7 +15,9 @@ function PaintingDetail({ show, closeModalHandler, title, image, medium }) {
             </div>
             <div className="modal-content">
                 <div className="modal-body">
+
                     <img alt="oil painting" src={image} />
+
                     <p>{medium}</p>
                 </div>
                 <div className="modal-footer"></div>
