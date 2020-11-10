@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import PaintingModal from "./PaintingModal";
+
 // import PaintingDetail from "./PaintingDetail"
 
 const BUTTON_WRAPPER_STYLES = {
@@ -21,8 +22,7 @@ function Painting({ title, medium, image }) {
         <>
 
 
-            {/* {show ? <PaintingDetail medium={medium} image={image} title={title} show={show} closeModalHandler={closeModalHandler} /> : null
-            } */}
+
             <div className="painting">
                 <div className="thumbnail">
                     <img alt="oil painting" src={image} />
@@ -39,18 +39,20 @@ function Painting({ title, medium, image }) {
                         Open
                 </button>
                 </div>
-                <PaintingModal open={isOpen} onClose={() => setIsOpen(false)}>
+                <PaintingModal image={image} open={isOpen} onClose={() => setIsOpen(false)}>
 
-                    <h3>
+                    <h3 style={{ margin: '0 auto' }}>
                         {title}
                     </h3>
                     <h5>
                         {medium}
 
                     </h5>
-                    <div className="thumbnail">
-                        <img alt="oil painting" src={image} />
-                    </div>
+                    <button onClick={() => setIsOpen(false)} >Close Modal</button>
+                    {/* <div className="thumbnail"> */}
+                    {/* <img alt="oil painting" src={image} /> */}
+                    {/* </div> */}
+
                 </PaintingModal>
 
 
