@@ -10,7 +10,10 @@ const inline = {
     left: '59%',
     position: 'absolute',
     backgroundColor: 'transparent',
-    top: `13%`
+    top: `13%`,
+
+
+
 }
 
 

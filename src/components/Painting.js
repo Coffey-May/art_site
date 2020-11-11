@@ -1,17 +1,11 @@
 import React, { useState } from "react";
 import PaintingModal from "./PaintingModal";
 
-// import PaintingDetail from "./PaintingDetail"
 
 const BUTTON_WRAPPER_STYLES = {
     position: 'relative',
     zIndex: 2,
     padding: '10px'
-}
-
-const OTHER_CONTENT_STYLES = {
-    positiion: 'relative',
-    zIndex: 1
 }
 
 function Painting({ title, medium, image }) {
@@ -41,17 +35,17 @@ function Painting({ title, medium, image }) {
                 </div>
                 <PaintingModal image={image} open={isOpen} onClose={() => setIsOpen(false)}>
 
-                    <h3 style={{ margin: '0 auto' }}>
+                    <h1 style={{ margin: '0 auto' }}>
                         {title}
-                    </h3>
-                    <h5>
+                    </h1>
+                    <h3>
                         {medium}
 
-                    </h5>
+                    </h3>
+
                     <button onClick={() => setIsOpen(false)} >Close Modal</button>
-                    {/* <div className="thumbnail"> */}
-                    {/* <img alt="oil painting" src={image} /> */}
-                    {/* </div> */}
+                    <hr></hr>
+
 
                 </PaintingModal>
 

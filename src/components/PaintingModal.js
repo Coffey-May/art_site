@@ -12,7 +12,8 @@ const MODAL_STYLES = {
     width: '90vw',
     transform: 'translate(-50%,-50%)',
     padding: '50px',
-    backgroundColor: '#FFF',
+    backgroundColor: 'rgba(0, 0, 0, 0.7)',
+    color: 'white',
     zIndex: 1000,
     textAlign: 'center'
 }
