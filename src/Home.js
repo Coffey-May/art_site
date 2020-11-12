@@ -1,5 +1,7 @@
 import React from "react";
-import { Parallax } from "react-parallax"
+import { Parallax } from "react-parallax";
+import { Spring } from "react-spring/renderprops";
+
 
 const image1 = "/images/PChinatownbangkok.jpeg"
 const image2 = "/images/PStrawberry.jpeg"
@@ -22,14 +24,21 @@ function Home() {
         <div className="Home">
 
             <Parallax id="bg1 " bgImage={image1} strength={300}>
-                <div className="text-container" style={{ height: 900, backgroundColor: 'black', opacity: '0.6' }}>
+                <Spring
+                    from={{ opacity: 0 }}
+                    to={{ opacity: 1 }}
+                    config={{ delay: 1300, duration: 1300 }}
+                >
+                    {props => (
+                        <div style={props}>
+                            <div className="text-container" style={{ height: 900, backgroundColor: 'black', opacity: '0.7' }}>
+                                <h2 className="text" style={inline}>COFFEY MAY<br /> <p>FINE ART </p></h2>
+                            </div>
+                        </div>
+                    )}
+                </Spring>
 
-                    <h2 className="text" style={inline}>COFFEY MAY<br /> <p>FINE ART </p></h2>
 
-
-
-
-                </div>
             </Parallax>
 
             <h1>|||</h1>

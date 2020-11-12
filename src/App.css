@@ -48,7 +48,7 @@ li{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
- 
+  flex-shrink:20px;
 }
 .thumbnail {
   position: relative;
@@ -74,8 +74,10 @@ li{
 .text{
   mix-blend-mode: screen;
   letter-spacing: .5rem;
-  font-weight: lighter;
-  font-size: xx-large;
+  /* font-weight: lighter;
+  font-size: xx-large; */
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: .5px;
   
 }
 #detail{
