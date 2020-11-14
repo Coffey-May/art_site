@@ -38,12 +38,12 @@ function Painting({ title, medium, image }) {
                     <h1 style={{ margin: '0 auto' }}>
                         {title}
                     </h1>
-                    <h3>
+                    <h3 style={{ margin: 0 }}>
                         {medium}
 
                     </h3>
 
-                    <button onClick={() => setIsOpen(false)} >Close Modal</button>
+                    <button onClick={() => setIsOpen(false)} >Close</button>
                     <hr></hr>
 
 

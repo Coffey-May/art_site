@@ -38,10 +38,10 @@ const PaintingModal = ({ open, children, onClose, image }) => {
                 {children}
                 <MapInteractionCSS>
 
-                    <img id="detail" alt="oil painting" src={image} /><br />
+                    <img style={{ height: '100vh' }} alt="oil painting" src={image} /><br />
 
                 </MapInteractionCSS>
-                <button onClick={onClose} >Close Modal</button>
+                <button onClick={onClose} >Close</button>
 
             </div>
         </>,
