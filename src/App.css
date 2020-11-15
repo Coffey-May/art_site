@@ -74,10 +74,9 @@ li{
 .text{
   mix-blend-mode: screen;
   letter-spacing: .5rem;
-  /* font-weight: lighter;
-  font-size: xx-large; */
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: .5px;
+  font-weight: lighter;
+  font-size: xx-large;
+  
   
 }
 #detail{
@@ -87,3 +86,11 @@ li{
   /* background-size: contain; */
  
 }
+/* li{
+  mix-blend-mode: screen;
+  letter-spacing: .3rem;
+ 
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: .5px;
+  
+} */

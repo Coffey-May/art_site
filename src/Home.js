@@ -24,30 +24,40 @@ function Home() {
         <div className="Home">
 
             <Parallax id="bg1 " bgImage={image1} strength={300}>
+
                 <Spring
                     from={{ opacity: 0 }}
                     to={{ opacity: 1 }}
-                    config={{ delay: 1300, duration: 1300 }}
+                    config={{ delay: 700, duration: 1000 }}
                 >
                     {props => (
                         <div style={props}>
                             <div className="text-container" style={{ height: 900, backgroundColor: 'black', opacity: '0.7' }}>
-                                <h2 className="text" style={inline}>COFFEY MAY<br /> <p>FINE ART </p></h2>
+                                <h2 className="text" style={inline}>COFFEY MAY<br />
+                                    <p>FINE ART </p>
+
+
+                                </h2>
                             </div>
+
                         </div>
+
                     )}
+
                 </Spring>
 
-
             </Parallax>
 
-            <h1>|||</h1>
-            <Parallax id="bg2" bgImage={image2} strength={500}>
-                <div style={{ height: 500, backgroundColor: 'black', opacity: '0.5' }}>
-                    <div >jndskjfn</div>
+            <h6>|||</h6>
+            <Parallax id="bg2" bgImage={image2} strength={300}>
+                <div style={{ height: 900, backgroundColor: 'black', opacity: '0.5' }}>
+
                 </div>
+
             </Parallax>
-            <div style={{ height: '100vh' }}></div>
+
+
+            {/* <div style={{ height: '100vh' }}></div> */}
         </div >
     );
 }
