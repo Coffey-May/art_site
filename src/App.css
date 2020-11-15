@@ -33,7 +33,10 @@ li{
   text-align: center;    
 	color: #f6eff7;
 }
-
+h6{
+  background-color: rgb(83, 83, 83);
+  margin: 0%;
+}
 
 .painting{
   margin:5px;
@@ -94,3 +97,8 @@ li{
   -webkit-text-stroke-width: .5px;
   
 } */
+.contact-div{
+width:50vw;
+height:50vh;
+
+}

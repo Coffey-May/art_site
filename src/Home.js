@@ -23,7 +23,7 @@ function Home() {
     return (
         <div className="Home">
 
-            <Parallax id="bg1 " bgImage={image1} strength={300}>
+            <Parallax id="bg1 " bgImage={image1} strength={50}>
 
                 <Spring
                     from={{ opacity: 0 }}
@@ -49,7 +49,7 @@ function Home() {
             </Parallax>
 
             <h6>|||</h6>
-            <Parallax id="bg2" bgImage={image2} strength={300}>
+            <Parallax id="bg2" bgImage={image2} strength={200}>
                 <div style={{ height: 900, backgroundColor: 'black', opacity: '0.5' }}>
 
                 </div>
