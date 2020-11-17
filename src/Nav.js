@@ -12,13 +12,13 @@ function Nav() {
 
 
             <ul>
-                <NavLink to="/" style={{ textDecoration: 'none' }}>
+                <NavLink to="/" style={{ textDecoration: 'none' }} className="nav-link" >
                     <li className="nav-link">Home</li>
                 </NavLink>
-                <NavLink to="/gallery" style={{ textDecoration: 'none' }}>
+                <NavLink to="/gallery" style={{ textDecoration: 'none' }} className="nav-link">
                     <li className="nav-link">Gallery</li>
                 </NavLink>
-                <NavLink to="/contact" style={{ textDecoration: 'none' }}>
+                <NavLink to="/contact" style={{ textDecoration: 'none' }} className="nav-link">
                     <li className="nav-link">Contact</li>
                 </NavLink>
 

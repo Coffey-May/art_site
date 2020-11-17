@@ -53,6 +53,7 @@ h6{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  background-color: rgb(235, 235, 235);
 
 }
 .thumbnail {
@@ -104,15 +105,21 @@ width:50vw;
 height:50vh;
 
 }
-.nav-link{
-  text-decoration: none;
-}
-.nav-link:active{
+.contact-li:hover{
   color: #FFFFFF;
   background-color: rgb(20, 27, 32);
 text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+
 }
-.nav-link:hover{
+.nav-link{
+  text-decoration: none;
+}
+.nav-link :active{
+  color: #FFFFFF;
+  background-color: rgb(20, 27, 32);
+text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #f81e8b 0px 0px 20px, #f8218d 0px 0px 30px, #fc1e8d 0px 0px 40px, #f01e87 0px 0px 50px, #f80880 0px 0px 75px;
+}
+.contact-li:hover{
   color: #FFFFFF;
   background-color: rgb(20, 27, 32);
 text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;

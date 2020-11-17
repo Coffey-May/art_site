@@ -17,7 +17,7 @@ const paintings = [
     { id: 9, title: `Dandelion`, medium: `Oil on canvas`, image: `/images/PDandelion.jpeg` },
     { id: 10, title: `Frog`, medium: `Oil on canvas`, image: `/images/PFrog.jpeg` },
 
-    { id: 1, title: `Bird`, medium: `Oil on canvas`, image: `/images/PBird.jpeg` },
+    { id: 11, title: `Bird`, medium: `Oil on canvas`, image: `/images/PBird.jpeg` },
     { id: 12, title: `Cow`, medium: `Oil on canvas`, image: `/images/PCow.jpeg` },
     { id: 13, title: `The Dream`, medium: `Oil on canvas`, image: `/images/PDream.jpeg` },
     { id: 14, title: `Cheesburger`, medium: `Oil on canvas`, image: `/images/PFly.jpeg` },

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import PaintingModal from "./PaintingModal";
 
 
+
 const BUTTON_WRAPPER_STYLES = {
     position: 'relative',
     zIndex: 2,
@@ -28,9 +29,9 @@ function Painting({ title, medium, image }) {
                     {medium}
 
                 </h5>
-                <div style={BUTTON_WRAPPER_STYLES}>
-                    <button onClick={() => setIsOpen(true)}>
-                        Open
+                <div style={BUTTON_WRAPPER_STYLES} className="nav-link">
+                    <button className="nav-link" onClick={() => setIsOpen(true)}>
+                        Detail
                 </button>
                 </div>
                 <PaintingModal image={image} open={isOpen} onClose={() => setIsOpen(false)}>
