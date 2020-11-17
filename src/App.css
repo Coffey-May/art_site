@@ -15,17 +15,20 @@ nav {
   box-shadow: 5px 10px 18px #888888;
   position: relative;
 
+
 }
 ul{
   display: flex;
   justify-content: space-around;
+
   
 }
+
 li{
   color:white;
   list-style: none;
   margin-left: 3rem;
- 
+  
 }
 .cm{
   margin-right: -4rem;
@@ -42,8 +45,7 @@ h6{
   margin:5px;
   padding:1rem;
   box-shadow: 5px 10px 18px #888888;
-  /* background-color: rgb(129, 126, 126);
-  color: aliceblue; */
+
 
 }
 .Gallery{
@@ -51,7 +53,7 @@ h6{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  flex-shrink:20px;
+
 }
 .thumbnail {
   position: relative;
@@ -101,4 +103,17 @@ h6{
 width:50vw;
 height:50vh;
 
+}
+.nav-link{
+  text-decoration: none;
+}
+.nav-link:active{
+  color: #FFFFFF;
+  background-color: rgb(20, 27, 32);
+text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+}
+.nav-link:hover{
+  color: #FFFFFF;
+  background-color: rgb(20, 27, 32);
+text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
 }

@@ -16,6 +16,18 @@ const paintings = [
     { id: 8, title: `Consume`, medium: `Oil on canvas`, image: `/images/PConsumerDetail.jpeg` },
     { id: 9, title: `Dandelion`, medium: `Oil on canvas`, image: `/images/PDandelion.jpeg` },
     { id: 10, title: `Frog`, medium: `Oil on canvas`, image: `/images/PFrog.jpeg` },
+
+    { id: 1, title: `Bird`, medium: `Oil on canvas`, image: `/images/PBird.jpeg` },
+    { id: 12, title: `Cow`, medium: `Oil on canvas`, image: `/images/PCow.jpeg` },
+    { id: 13, title: `The Dream`, medium: `Oil on canvas`, image: `/images/PDream.jpeg` },
+    { id: 14, title: `Cheesburger`, medium: `Oil on canvas`, image: `/images/PFly.jpeg` },
+    { id: 15, title: `Froggy`, medium: `Oil on canvas`, image: `/images/PFroggy.jpeg` },
+    { id: 16, title: `Harem of Saturn`, medium: `Oil on canvas`, image: `/images/PHos.jpeg` },
+    { id: 17, title: `Gummy Worms`, medium: `Oil on canvas`, image: `/images/PGummyworms.jpeg` },
+    { id: 18, title: `Homeless`, medium: `Oil on canvas`, image: `/images/PHomeless.jpeg` },
+    { id: 19, title: `Lady Bug`, medium: `Oil on canvas`, image: `/images/PLadybug.jpeg` },
+    { id: 20, title: `Liberty`, medium: `Oil on canvas`, image: `/images/PLiberty.jpeg` }
+
 ]
 
 function Gallery() {

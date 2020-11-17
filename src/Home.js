@@ -9,11 +9,11 @@ const image2 = "/images/PStrawberry.jpeg"
 
 const inline = {
     color: '#fff',
-    left: '59%',
+    left: '58%',
     position: 'absolute',
     backgroundColor: 'transparent',
     top: `13%`,
-
+    margin: '0 auto'
 
 
 }

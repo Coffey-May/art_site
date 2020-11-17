@@ -1,6 +1,8 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import './App.css';
+
+
 
 
 function Nav() {
@@ -10,15 +12,15 @@ function Nav() {
 
 
             <ul>
-                <Link to="/">
-                    <li>Home</li>
-                </Link>
-                <Link to="/gallery">
-                    <li>Gallery</li>
-                </Link>
-                <Link to="/contact">
-                    <li>Contact</li>
-                </Link>
+                <NavLink to="/" style={{ textDecoration: 'none' }}>
+                    <li className="nav-link">Home</li>
+                </NavLink>
+                <NavLink to="/gallery" style={{ textDecoration: 'none' }}>
+                    <li className="nav-link">Gallery</li>
+                </NavLink>
+                <NavLink to="/contact" style={{ textDecoration: 'none' }}>
+                    <li className="nav-link">Contact</li>
+                </NavLink>
 
             </ul>
 
