@@ -42,7 +42,7 @@ function Contact() {
                             <a href="https://github.com/Coffey-May"><li style={{ marginLeft: '-3rem' }} className=" contact-li"><FaGithub size={50} /></li></a>
                             <a href="https://www.linkedin.com/in/jonathan-coffey-may/"> <li style={{ marginLeft: '-3rem' }} className="contact-li"><FaLinkedin size={50} /></li></a>
                             <a href="https://www.instagram.com/coffeymay1/"><li style={{ marginLeft: '-3rem' }} className="contact-li"><FaInstagram size={50} /></li></a>
-                            <a href="https://www.facebook.com/coffey.may.7"><li style={{ marginLeft: '-3rem' }} className="contact-li"><FaFacebook size={50} /></li></a>
+                            <a href="https://m.facebook.com/coffey.may.7"><li style={{ marginLeft: '-3rem' }} className="contact-li"><FaFacebook size={50} /></li></a>
 
                         </ul>
                         <p ><FaCopyright /> COPYRIGHT2020</p>
