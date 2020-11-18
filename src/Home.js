@@ -63,7 +63,7 @@ function Home() {
                         <h1 className="#" style={{ marginTop: '0', fontSize: '2.5rem' }}>About me</h1> <hr />
                         <p style={{ fontWeight: 'light', margin: '0 auto', fontSize: '1.25rem' }}> <FaQuoteLeft size={15} />  {' '}Hello, my name is Coffey May. I am a realist oil painter and software developer.
                         I built this website with ReactJS to showcase my paintings and artwork. I like to paint in the tradition of photo-realism;
-                        Although, sometimes I like to incorporate other, more traditional methodologies as well.
+                        although, sometimes I like to incorporate other, more traditional methodologies as well.
                      <br />
                         I hope you enjoy my work, and for questions or comments regarding purchasing, or commissions, or software development needs,
                         you can reach me via the
