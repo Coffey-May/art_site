@@ -7,7 +7,7 @@ import './App.css';
 
 function Nav() {
     return (
-        <nav className="Nav">
+        <nav className="Nav" id="Nav">
             <h1 className="cm">CM</h1>
 
 
