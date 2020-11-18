@@ -3,6 +3,8 @@
 import React from "react";
 import { Parallax } from "react-parallax";
 import { Spring } from "react-spring/renderprops";
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -12,10 +14,11 @@ const image2 = "/images/PStrawberry.jpeg"
 
 const inline = {
     color: '#fff',
-    left: '58%',
-    position: 'absolute',
+    left: '52%',
+
+    // position: 'absolute',
     backgroundColor: 'transparent',
-    top: `13%`,
+    top: `7%`,
     margin: '0 auto'
 
 
@@ -37,24 +40,42 @@ function Home() {
                         <div style={props}>
                             <div className="text-container" style={{ height: 900, backgroundColor: 'black', opacity: '0.7' }}>
 
-                                <h2 className="text" style={inline}>COFFEY MAY<br /><hr />
-                                    FINE ART<br /><hr />
-                                    <a>LEARN MORE</a>
+                                <h2 className="text" style={inline}>COFFEY MAY<br />
+                                    <hr style={{ width: '30vw' }} />
+                                    FINE ART
                                     <br />
+                                    <hr style={{ width: '20vw' }} />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <AnchorLink style={{ color: 'white', textDecoration: 'none', border: '1px solid white', padding: '1rem', borderRadius: '99rem' }} href='#page2'>LEARN MORE</AnchorLink>
+
+
+
                                 </h2>
+
                             </div>
+
                         </div>
+
                     )}
                 </Spring>
+
             </Parallax>
             <h6>|||</h6>
             <Parallax id="bg2" bgImage={image2} strength={200}>
-                <div style={{ height: 900, backgroundColor: 'black', opacity: '0.5' }}>
-                    <h2 className="text" style={inline}>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Molestias, voluptas quam itaque atque doloribus molestiae cupiditate beatae, dolorum sit ab dolore ipsum,
-                      dolores dolor. Quod dignissimos porro repellat totam impedit!<br /><hr />
+                <div id="page2" style={{ height: 900, backgroundColor: 'black', opacity: '0.5' }}>
+                    <h2 className="text" style={inline}>Realist painting roles, since the advent of the camera, have been filled by a new class of painter, unbound by tradition.
+                    Contemporary realist oil painters deal with an ever-increasing encroachment of technology. I am not only an oiil painter, but a software developer.  <br /><hr />
                                     FINE ART<br /><hr />
-                        <a>LEARN MORE</a>
+                        {/* <a>LEARN MORE</a> */}
+                        <NavLink to="/gallery" className="nav-link">
+                            <p style={{ color: 'white', textDecoration: 'none', border: '1px solid white', padding: '1rem', borderRadius: '99rem' }}> View Gallery</p>
+                        </NavLink>
                         <br />
                     </h2>
                 </div>
