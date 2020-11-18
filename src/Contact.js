@@ -23,7 +23,7 @@ function Contact() {
          Also follow me on social media for more painting and software development related content. </h2>
                     </div>
 
-                    <ul style={{ marginLeft: '1rem', fontWeight: 'lighter', fontSize: '1rem', display: 'flex', color: `#fff`, backgroundColor: 'black', opacity: '0.8' }}>
+                    <ul style={{ marginLeft: '1rem', fontWeight: 'lighter', fontSize: '.5rem', display: 'flex', color: `#fff`, backgroundColor: 'black', opacity: '0.8' }}>
 
                         <li style={{ marginLeft: '-3rem' }} >E-MAIL</li>
                         <li style={{ marginLeft: '-3rem' }} >GITHUB</li>
