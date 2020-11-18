@@ -65,7 +65,7 @@ function Home() {
                         I built this website with ReactJS to showcase my paintings and artwork. I like to paint in the tradition of photo-realism;
                         Although, sometimes I like to incorporate other, more traditional methodologies as well.
                      <br />
-                        I home you enjoy my work, and for questions or comments regarding purchasing, or commissions, or software development needs,
+                        I hope you enjoy my work, and for questions or comments regarding purchasing, or commissions, or software development needs,
                         you can reach me via the
                         <NavLink to="/contact" style={{ textDecoration: 'none', color: '#FFF' }} >
                                 <em className="nav-link"> Contact </em>

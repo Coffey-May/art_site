@@ -38,11 +38,11 @@ function Contact() {
 
                     <footer style={{ height: '25vh', marginBottom: '0' }}>
                         <ul style={{ display: 'flex', color: `#fff`, backgroundColor: 'black', opacity: '0.8' }}>
-                            <a target="_blank" href="mailto: jcoffeymay6@gmail.com"><li style={{ marginLeft: '-3rem' }} className="contact-li "><FaEnvelope size={50} /></li></a>
-                            <a target="_blank" href="https://github.com/Coffey-May"><li style={{ marginLeft: '-3rem' }} className=" contact-li"><FaGithub size={50} /></li></a>
-                            <a target="_blank" href="https://www.linkedin.com/in/jonathan-coffey-may/"> <li style={{ marginLeft: '-3rem' }} className="contact-li"><FaLinkedin size={50} /></li></a>
-                            <a target="_blank" href="https://www.instagram.com/coffeymay1/"><li style={{ marginLeft: '-3rem' }} className="contact-li"><FaInstagram size={50} /></li></a>
-                            <a target="_blank" href="https://m.facebook.com/coffey.may.7"><li style={{ marginLeft: '-3rem' }} className="contact-li"><FaFacebook size={50} /></li></a>
+                            <a rel="noreferrer" target="_blank" href="mailto: jcoffeymay6@gmail.com"><li style={{ marginLeft: '-3rem' }} className="contact-li "><FaEnvelope size={50} /></li></a>
+                            <a rel="noreferrer" target="_blank" href="https://github.com/Coffey-May"><li style={{ marginLeft: '-3rem' }} className=" contact-li"><FaGithub size={50} /></li></a>
+                            <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/jonathan-coffey-may/"> <li style={{ marginLeft: '-3rem' }} className="contact-li"><FaLinkedin size={50} /></li></a>
+                            <a rel="noreferrer" target="_blank" href="https://www.instagram.com/coffeymay1/"><li style={{ marginLeft: '-3rem' }} className="contact-li"><FaInstagram size={50} /></li></a>
+                            <a rel="noreferrer" target="_blank" href="https://m.facebook.com/coffey.may.7"><li style={{ marginLeft: '-3rem' }} className="contact-li"><FaFacebook size={50} /></li></a>
 
                         </ul>
                         <p ><FaCopyright /> COPYRIGHT2020</p>
