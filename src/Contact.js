@@ -18,12 +18,12 @@ function Contact() {
                     <div style={{ height: '65vh', justifyContent: 'center' }}>
                         <h2 style={{
                             letterSpacing: '.1rem',
-                            fontWeight: 'lighter', padding: '3rem', margin: '0 auto', width: '70vw', textAlign: 'center'
+                            fontWeight: 'lighter', padding: '1rem', margin: '0 auto', width: '70vw', textAlign: 'center'
                         }}>If you would like more information regarding purchasing or commissioning of paintings or software development, contact me at the e-mail link below.
          Also follow me on social media for more painting and software development related content. </h2>
                     </div>
 
-                    <ul style={{ marginLeft: '1rem', fontWeight: 'lighter', fontSize: 'xx-small', display: 'flex', color: `#fff`, backgroundColor: 'black', opacity: '0.8' }}>
+                    <ul style={{ marginLeft: '1rem', fontWeight: 'lighter', fontSize: '1rem', display: 'flex', color: `#fff`, backgroundColor: 'black', opacity: '0.8' }}>
 
                         <li style={{ marginLeft: '-3rem' }} >E-MAIL</li>
                         <li style={{ marginLeft: '-3rem' }} >GITHUB</li>
