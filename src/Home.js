@@ -60,10 +60,10 @@ function Home() {
             <Parallax id="bg2" bgImage={image2} strength={200}>
                 <div id="page2" style={{ height: 800, backgroundColor: 'black', opacity: '0.7', color: '#fff' }}>
                     <div style={{ padding: '3rem', height: '60vh', }}>
-                        <h1 className="#" style={{ marginTop: '0', fontSize: '2.5rem' }}>About me</h1> <hr />
-                        <p style={{ fontWeight: 'light', margin: '0 auto', fontSize: '1.25rem' }}> <FaQuoteLeft size={15} />  {' '}Hello, my name is Coffey May. I am a realist oil painter and software developer.
+                        <h1 className="#" style={{ margin: '0 auto', fontSize: '2.5rem' }}>About me</h1> <hr />
+                        <p style={{ fontWeight: 'light', margin: '0 auto', fontSize: '1rem' }}> <FaQuoteLeft size={15} />  {' '}Hello, my name is Coffey May. I am a realist oil painter and software developer.
                         I built this website with ReactJS to showcase my paintings and artwork. I like to paint in the tradition of photo-realism;
-                        although, sometimes I like to incorporate other, more traditional methodologies as well.
+                        although sometimes I like to incorporate other, more traditional methodologies as well.
                      <br />
                         I hope you enjoy my work, and for questions or comments regarding purchasing, or commissions, or software development needs,
                         you can reach me via the
