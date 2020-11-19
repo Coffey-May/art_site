@@ -65,7 +65,7 @@ function Gallery() {
 
 
             </div>
-            <p>•NFS• <i>Not For Sale</i></p>
+            <p> *•NFS• : <i>Not For Sale</i></p>
         </>
     );
 }
