@@ -1,6 +1,7 @@
 import React from "react";
 import Painting from "./components/Painting";
 import { FaCopyright } from 'react-icons/fa';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 
 
@@ -10,7 +11,7 @@ const paintings = [
     { id: 1, title: `Brooklyn Diner •NFS•`, medium: `Oil on board`, image: `/images/PBrooklyndiner.jpeg` },
     { id: 2, title: `Fruits`, medium: `Oil on paper`, image: `/images/PApple.jpeg` },
     { id: 3, title: `The Pheasant •NFS•`, medium: `Oil on canvas`, image: `/images/PAccelerator.jpeg` },
-    { id: 4, title: `Cheesburger`, medium: `Oil on paper`, image: `/images/PBurger.jpeg` },
+    { id: 4, title: `Cheeseburger`, medium: `Oil on paper`, image: `/images/PBurger.jpeg` },
     { id: 5, title: `Butterfly`, medium: `Oil on canvas`, image: `/images/PButterfly.jpeg` },
     { id: 6, title: `Cherries`, medium: `Oil on board`, image: `/images/PCherries.jpeg` },
     { id: 7, title: `Chinatown`, medium: `Acrylic on canvas`, image: `/images/PChinatownbangkok.jpeg` },
@@ -65,6 +66,7 @@ function Gallery() {
 
 
             </div>
+            <AnchorLink style={{ textDecoration: 'none', }} href='#Nav'>Back to top</AnchorLink>
             <p> *•NFS• : <i>Not For Sale</i></p>
         </>
     );
