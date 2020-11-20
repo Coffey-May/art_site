@@ -5,7 +5,7 @@ import Nav from "./Nav";
 import Gallery from "./Gallery";
 import Contact from "./Contact";
 import Home from "./Home";
-//Main
+//Main Component
 function App() {
   return (
     <Router>
