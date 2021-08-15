@@ -8,7 +8,7 @@ const MODAL_STYLES = {
     position: 'fixed',
     top: '50%',
     left: '50%',
-    height: '90vh',
+    // height: '90vh',
     width: '90vw',
     transform: 'translate(-50%,-50%)',
     padding: '50px',
@@ -35,14 +35,14 @@ const PaintingModal = ({ open, children, onClose, image }) => {
         <>
             <div style={OVERLAY_STYLE} />
             <div style={MODAL_STYLES}>
-                {children}
+
                 <MapInteractionCSS>
 
-                    <img style={{ height: '100vh' }} alt="oil painting" src={image} /><br />
+                    <img style={{ width: '90%', height: '70vh' }} alt="oil painting" src={image} /><br />
 
                 </MapInteractionCSS>
-                <button onClick={onClose} >Close</button>
 
+                {children}
             </div>
         </>,
         document.getElementById('portal')

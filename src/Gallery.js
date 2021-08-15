@@ -7,6 +7,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 
 
+
 const paintings = [
     { id: 1, title: `Brooklyn Diner •NFS•`, medium: `Oil on board`, image: `/images/PBrooklyndiner.jpeg` },
     { id: 2, title: `Fruits`, medium: `Oil on paper`, image: `/images/PApple.jpeg` },

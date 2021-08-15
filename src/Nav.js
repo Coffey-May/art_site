@@ -8,7 +8,10 @@ import './App.css';
 function Nav() {
     return (
         <nav className="Nav" id="Nav">
-            <h1 className="cm">CM</h1>
+            <NavLink to="/" style={{ textDecoration: 'none' }} className="nav-link" >
+                <h1 className="cm">CM</h1>
+            </NavLink>
+
 
 
             <ul>
