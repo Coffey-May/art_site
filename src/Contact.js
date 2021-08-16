@@ -4,7 +4,7 @@ import { FaFacebook, FaGithub, FaEnvelope, FaInstagram, FaLinkedin, FaCopyright 
 import './App.css';
 
 const image3 = "/images/Screenshot_20201029_233112.jpg"
-
+const CurrentYear = new Date().getFullYear()
 function Contact() {
     return (
         <div className="Contact">
@@ -30,7 +30,7 @@ function Contact() {
                                     <a rel="noreferrer" target="_blank" href="https://www.instagram.com/coffeymay1/"><li style={{ marginLeft: '-3rem' }} className="contact-li"><FaInstagram size={50} /></li></a>
                                     <a rel="noreferrer" target="_blank" href="https://m.facebook.com/coffey.may.7"><li style={{ marginLeft: '-3rem' }} className="contact-li"><FaFacebook size={50} /></li></a>
                                 </ul>
-                                <p ><FaCopyright /> COPYRIGHT2020</p>
+                                <p ><FaCopyright /> COPYRIGHT{CurrentYear}</p>
                             </footer>
                         </div>
                     </div>

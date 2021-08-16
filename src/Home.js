@@ -5,6 +5,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { FaCopyright, FaQuoteLeft, FaQuoteRight } from 'react-icons/fa';
 import { NavLink } from "react-router-dom";
 
+const CurrentYear = new Date().getFullYear()
 const image1 = "/images/PChinatownbangkok.jpeg"
 const image2 = "/images/PStrawberry.jpeg"
 const inline = {
@@ -69,7 +70,7 @@ function Home() {
                         <AnchorLink className="text" style={{ position: "relative", color: '#fff', textDecoration: 'none', border: '1px solid white', padding: '1rem', borderRadius: '99rem' }} href='#Nav'>Back to top</AnchorLink>
                     </div>
                     <div>
-                        <p style={{ marginTop: '3rem' }}><FaCopyright /> COPYRIGHT2020</p>
+                        <p style={{ marginTop: '3rem' }}><FaCopyright /> COPYRIGHT{CurrentYear}</p>
                     </div>
                 </div>
 
