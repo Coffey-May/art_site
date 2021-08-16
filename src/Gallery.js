@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Painting from "./components/Painting";
 import { FaCopyright } from 'react-icons/fa';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
@@ -56,19 +56,26 @@ const paintings = [
 ]
 
 function Gallery() {
+    const [hover, setHover] = useState(false)
+
+    const topHover = () => {
+        if (!hover) { setHover(true) }
+    }
+
+    const leave = () => {
+        if (hover) { setHover(false) }
+    }
+
     return (
         <>
             <div className="Gallery">
-
                 {
                     paintings.map((painting) => <Painting key={painting.id} title={painting.title} medium={painting.medium} image={painting.image} />)
                 }
                 <p style={{ marginTop: '5rem' }}><FaCopyright /> COPYRIGHT2020</p>
-
-
             </div>
-            <AnchorLink style={{ textDecoration: 'none', }} href='#Nav'>Back to top</AnchorLink>
-            <p> *•NFS• : <i>Not For Sale</i></p>
+            <AnchorLink style={{ textDecoration: 'none', color: hover ? 'green' : 'white' }} onMouseOver={topHover} onMouseLeave={leave} href='#Nav'>Back to top</AnchorLink>
+            <p style={{ color: 'white' }}> *•NFS• : <i>Not For Sale</i></p>
         </>
     );
 }
